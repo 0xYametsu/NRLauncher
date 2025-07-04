@@ -8,7 +8,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(imgui)
 
-add_library(imgui)
+add_library(imgui SHARED)
 
 target_include_directories(
 	imgui
